@@ -4,11 +4,13 @@ Integrantes: Carol Erthal, Eduardo Adame e Tiago Barradas.
 
 ---
 
-- Arquivo [wrapper.py](./wrapper.py) pega informações do tmdb e adiciona ao nosso database, levando em consideração os foreign keys e etc. 
-- Arquivo [dbconnect.py](./dbconnect.py) apenas para testes.
-- Arquivos `.sql` são auto descritivos. Os arquivos `estoque-data.sql` são os dumps que fiz direto do servidor do Linux. 
+- Arquivo [wrapper.py](./movie_wrapper.py) pega informações do tmdb e adiciona ao nosso database, levando em consideração os foreign keys e etc.
+- Arquivo [wrapper.py](./anime_wrapper.py) pega informações do myanimelist e adiciona ao nosso database, levando em consideração os foreign keys e etc. 
+- Arquivo [wrapper.py](./TV_wrapper.py) (AINDA EM CONSTRUÇÃO) pega informações do tvmaze e adiciona ao nosso database, levando em consideração os foreign keys e etc.
+- Pasta [tests](./tests/) apenas para testes.
+- Arquivos `.sql` são auto descritivos. Os arquivos `estoque-data.sql` (na pasta [dumps](./dumps/)) são os dumps que fiz direto do servidor do Linux. 
 
-Basicamente só está faltando a tabela `shelf` e os outros tipos de work.
+Basicamente só está faltando a tabela `shelf` e os outros tipos de work (mangá, série e jogos).
 
 Os animes estão com id entre 275 e 371
 
