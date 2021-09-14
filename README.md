@@ -6,9 +6,15 @@ Integrantes: Carol Erthal, Eduardo Adame e Tiago Barradas.
 
 - Arquivo [wrapper.py](./wrapper.py) pega informações do tmdb e adiciona ao nosso database, levando em consideração os foreign keys e etc. 
 - Arquivo [dbconnect.py](./dbconnect.py) apenas para testes.
-- Arquivos `.sql` são auto descritivos. O [estoque.sql](./estoque.sql) é um dump que fiz direto do servidor do Linux. 
+- Arquivos `.sql` são auto descritivos. Os arquivos `estoque-data.sql` são os dumps que fiz direto do servidor do Linux. 
 
 Basicamente só está faltando a tabela `shelf` e os outros tipos de work.
+
+Os animes estão com id entre 275 e 371
+
+Os criadores de anime estão com id entre 470 e 586
+
+Os gêneros de anime estão com id entre 67 e 90
 
 
 Links úteis: 
@@ -26,13 +32,13 @@ Links úteis:
 
 <https://www.w3schools.com/sql/sql_default.asp>
 
-<https://www.tvmaze.com/api> séries
+<https://www.tvmaze.com/api> séries (REALMENTE MUITO BOM)
 
-<https://www.igdb.com/api> jogos
+<https://www.igdb.com/api> jogos  (nem consegui usar, o <https://api.rawg.io/docs/> parece funcionar)
 
-<https://imdb-api.com/api> filmes
+<https://imdb-api.com/api> filmes (não muito bom)
 
-<https://jikan.moe/> animes/mangas
+<https://jikan.moe/> animes/mangas 
 
 <https://pynative.com/python-mysql-database-connection/>
 
